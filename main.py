@@ -48,8 +48,10 @@ run_button.pack(pady=10)
 result_label = ctk.CTkLabel(app, text="", text_color="gray")
 result_label.pack(pady=5)
 
-yeeyeeahhlabel = ctk.CTkLabel(app, text="yeeyeeass tool made by BihanDoo!!!", text_color="blue")
+yeeyeeahhlabel = ctk.CTkLabel(app, text="tool made by BihanDoo!!!", text_color="blue")
 yeeyeeahhlabel.pack(pady=5)
 
 # Start the app
 app.mainloop()
+
+# pyinstaller --onefile --windowed --icon=app_icon.ico main.py
